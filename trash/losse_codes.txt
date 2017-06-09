@@ -1,0 +1,52 @@
+
+<!--trash-->
+
+<!--function replaceholder(id) {
+id.toString();
+val = [];
+val[id] = document.getElementById(id).placeholder;
+console.log(val);
+document.getElementById(id).placeholder = val;
+}
+
+echo "<fieldset>";
+    echo "<legend>Naar database</legend>";
+    echo "<div class='input-group'>";
+        echo "<label for=\"begin\">Begin</label>";
+        echo "<input class='form-control' type=\"number\" id=\"begin\" name=\"begin\" min=\"1\" max=\"52\" step=\"1\" required>";
+        echo "</div>";
+    echo "<div class='input-group'>";
+        echo "<label for=\"eind\">Eind</label>";
+        echo "<input class='form-control' type=\"number\" id=\"eind\" name=\"eind\" min=\"1\" max=\"52\" step=\"1\" required>";
+        echo "</div>";
+    echo "<label for=\"jaar\">Jaar</label>";
+    echo "<input class='form-control' type=\"number\" id=\"jaar\" name=\"jaar\" min=\"2000\" max=\"3000\" step=\"1\" value=\"2017\" required>";
+    echo "<br>";
+    echo "<input class='btn btn-info' type='submit' id='send2db' name='send2db' value=\"Naar database\">";
+
+    echo "</fieldset>";
+echo "</div>";-->
+
+
+/*
+    if else ($('.fa, .fa-caret-down').attr("class") == "fa fa-caret-down") {
+        $(function () {
+            $('legend.input, .togglecontent').click(function () {
+                $(this).parent().find('.togglecontent');
+                $('i.fa-caret-down').addClass('fa-caret-up');
+                $('i.fa-caret-up').removeClass('fa-caret-down');
+                console.log("functie 2");
+            });
+        })
+        ;
+    }*/
+    //werkt niet
+
+
+
+    /*var some;
+    some = $('i').attr("class");
+    console.log(some);*/
+
+    //                $('i.fa-caret-up').addClass('fa-caret-down');
+    //                $('i.fa-caret-down').removeClass('fa-caret-up');

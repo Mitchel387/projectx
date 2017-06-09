@@ -1,0 +1,65 @@
+thead {
+    font-weight: bold; }
+
+nav.navbar-default {
+    background-color: #03a9f4; }
+
+.navbar-default h1.navbar-text {
+    color: black; }
+
+nav.navbar .navbar-default {
+    display: flex;
+    justify-content: space-around; }
+
+body {
+    padding-top: 90px;
+}
+
+div#input {
+    overflow: auto;
+    max-height: 31vh;
+    margin-bottom: 4vh;
+}
+
+legend.input {
+    margin-bottom: 0;
+}
+legend i {
+    float: right;
+    margin-right: 5px;
+}
+
+/*scrollbar*/
+::-webkit-scrollbar {
+    width: 20px;
+    height: 20px;
+}
+::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+::-webkit-scrollbar-thumb {
+    background: #03a9f4;
+    border: 0px none #ffffff;
+    border-radius: 100px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #35c1fd;
+}
+::-webkit-scrollbar-thumb:active {
+    background: #03a9f4;
+}
+::-webkit-scrollbar-track {
+    background: #d0d0d0;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+    background: #d0d0d0;
+}
+::-webkit-scrollbar-track:active {
+    background: #bebebe;
+}
+::-webkit-scrollbar-corner {
+    background: transparent;
+}

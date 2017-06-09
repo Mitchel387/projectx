@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Example</title>
+</head>
+<body>
+
+Qty2 : <input onblur="findTotal()" step="0.01" type="number" name="qty" id="qty2"/><br>
+Qty3 : <input onblur="findTotal()" step="0.01" type="number" name="qty" id="qty3"/><br>
+Qty4 : <input onblur="findTotal()" step="0.01" type="number" name="qty" id="qty4"/><br>
+Qty5 : <input onblur="findTotal()" step="0.01" type="number" name="qty" id="qty5"/><br>
+Qty6 : <input onblur="findTotal()" step="0.01" type="number" name="qty" id="qty6"/><br>
+Qty7 : <input onblur="findTotal()" step="0.01" type="number" name="qty" id="qty7"/><br>
+Qty8 : <input onblur="findTotal()" step="0.01" type="number" name="qty" id="qty8"/><br>
+<br><br>
+Total : <input type="text" name="total" id="total"/>
+
+
+<script type="text/javascript">
+    /*function findTotal() {
+        var arr = document.getElementsByName('qty');
+        var tot = 0;
+        for (var i = 0; i < arr.length.toFixed(2); i++) {
+            if (parseFloat(arr[i].value.replace(/",/g, ".")
+                    ).toFixed(2))
+                tot += parseInt(arr[i].value);
+            console.log(arr[i].value);
+        }
+        document.getElementById('total').value = tot;
+    }*/
+
+
+</script>
+
+<script type="text/javascript">
+    function findTotal() {
+        var arr = document.getElementsByName('qty');
+        var tot = 0;
+        for (var i = 0; i < arr.length; i++) {
+            if (parseFloat(arr[i].value))
+                tot += parseFloat(arr[i].value);
+            console.log(arr[i].value);
+
+        }
+        document.getElementById('total').value = tot.toFixed(2);
+    }
+
+</script>
+
+
+</body>
+</html>
